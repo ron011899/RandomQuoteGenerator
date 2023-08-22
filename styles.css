@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 95%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-container{
+    text-align: center;
+}
+.quote{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(106, 168, 230);
+    border: 12px solid rgb(200, 179, 153);
+    padding: 0 40px;
+    text-align: center;
+}
+.quote h3{
+    font-size: 28px;
+}
+.quote p{
+    font-size: 18px;
+    font-style: italic;
+}
+@media(max-width:480px){
+    .quote h3{
+        font-size: 23px;
+    }
+    .quote p{
+        font-size: 13px;
+    }
+
+}  
