@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(192, 191, 191, 0.938);
+    /* background-color: rgba(192, 191, 191, 0.938); */
+    background-color: black;
 }
 .container{
     width: 95%;
